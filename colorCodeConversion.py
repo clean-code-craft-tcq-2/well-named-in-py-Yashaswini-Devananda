@@ -1,7 +1,9 @@
-from initializations import ColorSets as ColorSets
+from initializations import ColorSets 
 
-MAJOR_COLORS = ColorSets.majorColors
-MINOR_COLORS = ColorSets.minorColors
+ColorSet = ColorSets()
+
+MAJOR_COLORS = ColorSet.majorColors
+MINOR_COLORS = ColorSet.minorColors
 
 def color_pair_to_string(major_color, minor_color):
   return f'{major_color} {minor_color}'
