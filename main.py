@@ -7,3 +7,5 @@ if __name__ == '__main__':
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
+
+ 
