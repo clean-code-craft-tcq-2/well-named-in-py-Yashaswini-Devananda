@@ -1,7 +1,5 @@
 from initializations import ColorSets 
 
-
-
 ColorSet = ColorSets()
 
 MAJOR_COLORS = ColorSet.majorColors
