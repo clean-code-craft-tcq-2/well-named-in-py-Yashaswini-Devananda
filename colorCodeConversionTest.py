@@ -1,8 +1,10 @@
 import colorCodeConversion
-import initializations
+from initializations import ColorSets 
 
-MAJOR_COLORS = ColorSets.majorColors
-MINOR_COLORS = ColorSets.minorColors
+ColorSet = ColorSets()
+
+MAJOR_COLORS = ColorSet.majorColors
+MINOR_COLORS = ColorSet.minorColors
 
 def test_number_to_pair(pair_number,
                         expected_major_color, expected_minor_color):
