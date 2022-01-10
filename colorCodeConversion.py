@@ -1,5 +1,7 @@
-MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
-MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
+import initializations
+
+MAJOR_COLORS = ColorSets.majorColors
+MINOR_COLORS = ColorSets.minorColors
 
 def color_pair_to_string(major_color, minor_color):
   return f'{major_color} {minor_color}'
