@@ -1,2 +1,4 @@
-MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
-MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
+Class ColorSets
+
+majorColors = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+minorColors = ["Blue", "Orange", "Green", "Brown", "Slate"]
