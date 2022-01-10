@@ -1,5 +1,4 @@
-import initializations
-
+from initializations import ColorSets
 
 MAJOR_COLORS = ColorSets.majorColors
 MINOR_COLORS = ColorSets.minorColors
