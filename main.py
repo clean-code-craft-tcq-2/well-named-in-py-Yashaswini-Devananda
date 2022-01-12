@@ -1,8 +1,6 @@
 import colorCodeConversionTest
 import referenceManual
 
-
-
 if __name__ == '__main__':
   colorCodeConversionTest.test_number_to_pair(4, 'White', 'Brown')
   colorCodeConversionTest.test_number_to_pair(5, 'White', 'Slate')
