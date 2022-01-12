@@ -1,5 +1,5 @@
 import colorCodeConversionTest
-import displayReferenceManual
+import referenceManual
 
 
 
@@ -11,5 +11,5 @@ if __name__ == '__main__':
   colorCodeConversionTest.test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
 
-displayReferenceManual.reference_manual()
+referenceManual.display_reference_manual()
  
