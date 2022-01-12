@@ -12,3 +12,5 @@ def display_reference_manual():
         for minorColor in MINOR_COLORS:
             print (f"{str(pairNum) : ^10} {majorColor : ^15} {minorColor : ^15}");
             pairNum+=1
+            
+            
