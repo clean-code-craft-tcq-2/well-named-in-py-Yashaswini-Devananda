@@ -5,7 +5,7 @@ ColorSet = ColorSets()
 MAJOR_COLORS = ColorSet.majorColors
 MINOR_COLORS = ColorSet.minorColors
 
-def reference_manual():
+def display_reference_manual():
     pairNum = 1
     print (f"{'Pair Number' : ^10} {'Major Color' : ^15} {'Minor Color' : ^15}");
     for majorColor in MAJOR_COLORS:
